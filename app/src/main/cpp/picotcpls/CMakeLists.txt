@@ -80,8 +80,8 @@ ADD_LIBRARY(picotls-minicrypto
     lib/ffx.c)
 TARGET_LINK_LIBRARIES(picotls-minicrypto picotls-core)
 
-SET(OPENSSL_INCLUDE_DIR /home/aubuchet/Documents/TCPLS/app/app/src/main/cpp/openssl/include)
-SET(OPENSSL_LIBRARIES /home/aubuchet/Documents/TCPLS/app/app/src/main/cpp/openssl/libcrypto.so /home/aubuchet/Documents/TCPLS/app/app/src/main/cpp/openssl/libssl.so)
+SET(OPENSSL_INCLUDE_DIR /home/aubuchet/Documents/tcpls_app/app/app/src/main/cpp/openssl/include)
+SET(OPENSSL_LIBRARIES /home/aubuchet/Documents/tcpls_app/app/app/src/main/cpp/openssl/libcrypto.so /home/aubuchet/Documents/tcpls_app/app/app/src/main/cpp/openssl/libssl.so)
 
 ADD_LIBRARY(cli
             SHARED
