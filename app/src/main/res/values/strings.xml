@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TCPLS_app</string>
+    <string name="save_settings">Save &amp; Quit</string>
+    <string name="multipath">Enable Multipath</string>
+    <string name="ipv4">Server IPv4 address</string>
+    <string name="ipv6">Server IPv6 address</string>
+    <string name="port">Server Port</string>
+</resources>
